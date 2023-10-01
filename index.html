@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheems Bonk Game</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/icon-192x192.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+</head>
+<body onload="LoadAll()">
+    <div class="nav" id="nav">
+        <span class="count icon" id="dg-count">
+            <img src="img/dogecoin-min.png">
+        </span>
+        <span class="count" id="pts-count">0 pts.</span>
+        <a href="shop.html">
+            <span class="icon" id="shop">
+                <img src="img/cart.png">
+            </span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="upper-container">
+            <span class="count" id="max-count">0</span>
+            <span class="count" id="general-count">0</span>
+            <span class="count" id="this-count">0</span>
+        </div>
+        <div class="img-container" onclick="ClickCheems()">
+            <img src="img/unlocked-cheems.png" id="cheems-img">
+        </div>
+    </div>
+    <script src="js/buttons.js"></script>
+    <script src="SoundDefinitions.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

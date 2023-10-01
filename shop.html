@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/icon-192x192.png" type="image/x-icon">
+</head>
+<body onload="LoadShop()">
+    <div class="shop-nav">
+        <div class="nav" id="nav">
+            <span class="count icon" id="dg-count">
+                <img src="img/dogecoin-min.png">
+            </span>
+            <span class="count" id="pts-count">0 pts.</span>
+            <a href="index.html">
+                <span class="icon" id="back">
+                    <img src="img/back.png">
+                </span>
+            </a>
+        </div>
+        <div class="shop-text" id="shop-text">
+            Tienda
+        </div>
+    </div>
+    <div class="container shop">
+	  <div class="group">
+            <span class="count icon" id="dg-count">
+                <img src="img/dogecoin-min.png">
+            </span>
+            <span class="count" id="pts-count">0 pts.</span>
+            <a href="main.html">
+                <span class="icon" id="back">
+                    <img src="img/back.png">
+                </span>
+            </a>
+        </div>
+        <div class="shop-text" id="shop-text">
+            Tienda
+        </div>
+        <div class="group">
+            <h1>
+                Puntos y DogeCoins
+            </h1>
+            <p id="dgc">
+                El cambio del DogeCoin está a: 0 pts.
+            </p>
+            <img src="img/dogecoin.png" id="BuyDogeCoin0" onclick="BuyDogeCoins()">
+        </div>
+        <div class="group">
+            <h1>
+                Cheems (Skins)
+            </h1>
+            <div class="flex-right">
+                <img src="img/unlocked-cheems.png" id="BuyCheems1" onclick="BuyCheems('normal')">
+                <img src="img/unlocked-cheems.png" id="BuyCheems2" onclick="BuyCheems('little')">
+                <img src="img/unlocked-cheems.png" id="BuyCheems3" onclick="BuyCheems('adult')">
+            </div>
+            <div class="flex-right">
+                <img src="img/unlocked-cheems.png" id="BuyCheems4" onclick="BuyCheems('kid')">
+                <img src="img/unlocked-cheems.png" id="BuyCheems5" onclick="BuyCheems('mamado')">
+                <img src="img/unlocked-cheems.png" id="BuyCheems6" onclick="BuyCheems('pixelart')">
+            </div>
+            <div class="flex-right">
+                <img src="img/unlocked-cheems.png" id="BuyCheems7" onclick="BuyCheems('elegant')">
+                <img src="img/unlocked-cheems.png" id="BuyCheems8" onclick="BuyCheems('3d')">
+                <img src="img/unlocked-cheems.png" id="BuyCheems9" onclick="BuyCheems('black')">
+            </div>
+        </div>
+        <div class="group">
+            <h1>
+                Sonidos
+            </h1>
+            <div class="flex-right">
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(1)" id="BS1"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(2)" id="BS2"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(3)" id="BS3"></img>
+            </div>
+            <div class="flex-right">
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(4)" id="BS4"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(5)" id="BS5"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(6)" id="BS6"></img>
+            </div>
+            <div class="flex-right">
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(7)" id="BS7"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(8)" id="BS8"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(9)" id="BS9"></img>
+            </div>
+            <div class="flex-right">
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(10)" id="BS10"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(11)" id="BS11"></img>
+                <img src="img/volumen-silenciado.svg" onclick="BuySound(12)" id="BS12"></img>
+            </div>
+        </div>
+    </div>
+    <script src="SoundDefinitions.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

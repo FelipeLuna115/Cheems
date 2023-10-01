@@ -1,0 +1,17 @@
+{
+    "name": "Cheems Bonk Game Version ALPHA",
+    "short_name": "Cheems",
+    "description": "Cheems Bonk Game Version ALPHA",
+    "theme_color": "#a75d21",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "img/icon-144x144.png",
+            "type": "img/png",
+            "sizes": "144x144"
+        }
+    ]
+}
