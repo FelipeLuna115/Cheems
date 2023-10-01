@@ -1,3 +1,4 @@
+;
 const CACHE_NAME = 'cheems_alpha_v1',
   urlsToCache = [
     './',
