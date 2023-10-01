@@ -18,10 +18,10 @@ var s9 = 'false', s10 = 'false', s11 = 'false', s12 = 'false';
 var clickable = false;
 
 // descomentar al compilar
-//document.oncontextmenu = function(){return false}
-//document.ondragstart = function(){return false}
-//document.onselectstart = function(){return false}
-//document.onmousedown = function() {return false}
+document.oncontextmenu = function(){return false}
+document.ondragstart = function(){return false}
+document.onselectstart = function(){return false}
+document.onmousedown = function() {return false}
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js')
     .then(reg => console.log('Registro de SW exitoso', reg))
