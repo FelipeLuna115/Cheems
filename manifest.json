@@ -1,0 +1,29 @@
+{
+    "short_name": "Cheems App",
+    "name": "Cheems App Game",
+    "icons": [
+      {
+        "src": "img/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/icon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#aa914a",
+    "theme_color": "#e6b918",
+    "id": "CheemsAppLi",
+    "description": "Cheems App is Just a Game of cheems.",
+    "dir": "auto",
+    "lang": "es",
+    "orientation": "portrait",
+    "categories": [
+      "games",
+      "kids"
+    ]
+  }
